@@ -5,49 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: darkgrey">
-    <h1>INFORMATION FORM</h1>
+<body>
+    
+    <h1>FORM</h1>
     <form>
-        <p>
-            First Name:
-        <input type="text">
-        </p>
-        <p>
-            Last Name:
-            <input type="text">
-        </p>
-        <p>
-           E-mail:
-           <input type="email">
-        </p>
-        <p>
-            Password:
-            <input type="password">
-        </p>
-        <p>
-            Date Of Birth:
-            <input type="date">
-        </p>
-        <p>
-            Gender:
-            <input name="remarks" type="radio">Male
-            <input name="remarks"type="radio">Female
-
-            <input name="remarks" type="radio">Custom
-        </p>
-        <p>
-            Mobile:
-            <input type="number">
-        </p>
-           <p>
-            Address:
-            </p>
-            <textarea cols="20" rows="10"></textarea>
-            <p>
-           
-         <button>submit</button>
-         </p>
-
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="">Sex:</label>
+   &nbsp; <input name="sex" type="radio">Male
+    <input name="sex" type="radio">Female
+    <br>
+    <br>
+    <label for="">Country</label>
+    <select name="" id="">
+      <option value="" disabled selected>select an option</option>
+      <option value="">karachi</option>
+      <option value="">lahore</option>
+      <option value="">islamabad</option>
+    </select>
+    <br>
+    <br>
+    <label for="msg">Message</label>
+    <br>
+    <textarea cols="30" rows="5"></textarea>
+    <br>
+    <br>
+    <label for=""></label>
+    <input type="checkbox">subscribe?
+    <br>
+    <br>
+    <button>submit</button>
     </form>
+    
+    
+    
+    
+    
+    
+    <h1>Novell Services Login</h1>
+    <h2>form 1</h2>
+    <form>
+   <label for="name">Username</label>
+   <input type="text" id="name">
+   <br>
+   <br>
+   <label for="pass">Password</label>
+   <input type="password" id="pass">
+   <br>
+   <br>
+   <label for="COE">City Of Employment</label>
+   <input type="text" id="COE">
+   <br>
+   <br>
+   <label for="server">Web server</label>
+   <select name="sever" id="server">
+    <option value="" disabled selected>Choose a server</option>
+    <option value="IIS web server">IIS web server</option>
+    <option value="Nginx">Nginx</option>
+   </select>
+   <br>
+   <br>
+   <label for="radio">please specify <br> your role</label>
+   <br>
+   <input type="radio" id="radio">Admin
+   <br>
+   <input type="radio">Manager
+   <br>
+   <input type="radio">Engineer
+   <br>
+   <input type="radio">Guest
+   <br>
+   <br>
+   <label for="checkbox">Single Sign-on to the following</label>
+   <br>
+   <input type="checkbox" id="checkbox">Mail
+   <br>
+   <input type="checkbox">Payroll
+   <br>
+   <input type="checkbox">Self-service
+   <br>
+   <br>
+   <button>login</button>
+   <br>
+   <br>
+   <button>reset</button>
+   </form>
+    
+      </form>
+      
+   
+    
 </body>
 </html>
